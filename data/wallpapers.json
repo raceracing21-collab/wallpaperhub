@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Anime Sunset",
+    "category": "Anime",
+    "image": "https://picsum.photos/400/700?1"
+  },
+  {
+    "id": 2,
+    "title": "Gaming RGB",
+    "category": "Gaming",
+    "image": "https://picsum.photos/400/700?2"
+  },
+  {
+    "id": 3,
+    "title": "Nature Lake",
+    "category": "Nature",
+    "image": "https://picsum.photos/400/700?3"
+  },
+  {
+    "id": 4,
+    "title": "AMOLED Black",
+    "category": "AMOLED",
+    "image": "https://picsum.photos/400/700?4"
+  },
+  {
+    "id": 5,
+    "title": "BMW M4",
+    "category": "Cars",
+    "image": "https://picsum.photos/400/700?5"
+  },
+  {
+    "id": 6,
+    "title": "Abstract Blue",
+    "category": "Abstract",
+    "image": "https://picsum.photos/400/700?6"
+  }
+]
