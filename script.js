@@ -1,6 +1,6 @@
 const grid = document.getElementById("wallpaperGrid");
 const searchInput = document.getElementById("searchInput");
-
+const categoryButtons = document.querySelectorAll(".category-btn");
 let wallpapers = [];
 
 async function loadWallpapers() {
@@ -60,5 +60,26 @@ searchInput.addEventListener("input", function () {
     showWallpapers(result);
 
 });
+categoryButtons.forEach(button => {
 
+    button.addEventListener("click", () => {
+
+        const category = button.dataset.category;
+
+        if (category === "All") {
+
+            showWallpapers(wallpapers);
+
+            return;
+        }
+
+        const filtered = wallpapers.filter(item =>
+            item.category === category
+        );
+
+        showWallpapers(filtered);
+
+    });
+
+});
 loadWallpapers();
