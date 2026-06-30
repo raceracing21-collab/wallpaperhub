@@ -1,0 +1,1 @@
+console.log('RaceWalls v1.0');
